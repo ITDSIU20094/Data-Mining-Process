@@ -16,7 +16,7 @@ public class Step5C_Folds_SMO {
         SMO smo = new SMO();
         smo.buildClassifier(dataset);
         int seed = 1; // the seed for randomizing the data
-        int folds = 10; // the number of folds for cross-validation
+        int folds = 20; // the number of folds for cross-validation
 
         // Randomize the data
         Random rand = new Random(seed);

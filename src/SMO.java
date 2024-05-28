@@ -4,7 +4,7 @@ import weka.classifiers.functions.SMO;
 import weka.classifiers.Evaluation;
 import java.util.Random;
 
-public class Step4_SMO {
+public class SMO {
     public static void main(String args[]) throws Exception{
         // Load training dataset
         DataSource source = new DataSource("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\train_test_dataset\\Train_dataset.arff");

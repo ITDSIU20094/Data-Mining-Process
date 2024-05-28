@@ -1,181 +1,361 @@
 === Random Tree ===
 
-=== 10-fold Cross-validation run 1 ===
-Correctly Classified Instances         611               93.8556 %
-Incorrectly Classified Instances        40                6.1444 %
-Kappa statistic                          0.0159
-Mean absolute error                      0.0418
-Root mean squared error                  0.2027
-Relative absolute error                 98.4412 %
-Root relative squared error            140.5129 %
-Total Number of Instances              651     
+=== 20-fold Cross-validation run 1 ===
+Correctly Classified Instances         295               91.6149 %
+Incorrectly Classified Instances        27                8.3851 %
+Kappa statistic                         -0.0422
+Mean absolute error                      0.0566
+Root mean squared error                  0.2369
+Relative absolute error                128.8498 %
+Root relative squared error            159.7435 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 1/10 ===
+=== Confusion matrix for fold 1/20 ===
 
    a   b   c   <-- classified as
- 610  20   0 |   a = Slight
-  20   1   0 |   b = Moderate
+ 295  16   0 |   a = Slight
+  11   0   0 |   b = Moderate
    0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 2 ===
-Correctly Classified Instances         619               95.0845 %
-Incorrectly Classified Instances        32                4.9155 %
-Kappa statistic                          0.0358
-Mean absolute error                      0.0334
-Root mean squared error                  0.1818
-Relative absolute error                 76.9331 %
-Root relative squared error            123.1876 %
-Total Number of Instances              651     
+=== 20-fold Cross-validation run 2 ===
+Correctly Classified Instances         303               94.0994 %
+Incorrectly Classified Instances        19                5.9006 %
+Kappa statistic                         -0.0296
+Mean absolute error                      0.04  
+Root mean squared error                  0.1989
+Relative absolute error                 91.1377 %
+Root relative squared error            134.1196 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 2/10 ===
+=== Confusion matrix for fold 2/20 ===
 
    a   b   c   <-- classified as
- 618  11   0 |   a = Slight
-  21   1   0 |   b = Moderate
+ 303   8   0 |   a = Slight
+  11   0   0 |   b = Moderate
    0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 3 ===
-Correctly Classified Instances         604               92.7803 %
-Incorrectly Classified Instances        47                7.2197 %
-Kappa statistic                          0.0767
-Mean absolute error                      0.0488
-Root mean squared error                  0.2197
-Relative absolute error                112.2809 %
-Root relative squared error            148.8998 %
-Total Number of Instances              651     
+=== 20-fold Cross-validation run 3 ===
+Correctly Classified Instances         301               93.4783 %
+Incorrectly Classified Instances        21                6.5217 %
+Kappa statistic                          0.0532
+Mean absolute error                      0.0435
+Root mean squared error                  0.2085
+Relative absolute error                 98.9944 %
+Root relative squared error            140.5915 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 3/10 ===
+=== Confusion matrix for fold 3/20 ===
 
    a   b   c   <-- classified as
- 601  28   0 |   a = Slight
-  19   3   0 |   b = Moderate
+ 300  11   0 |   a = Slight
+  10   1   0 |   b = Moderate
    0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 4 ===
-Correctly Classified Instances         611               93.8556 %
-Incorrectly Classified Instances        40                6.1444 %
-Kappa statistic                          0.0159
-Mean absolute error                      0.0418
-Root mean squared error                  0.2029
-Relative absolute error                 96.266  %
-Root relative squared error            137.5243 %
-Total Number of Instances              651     
+=== 20-fold Cross-validation run 4 ===
+Correctly Classified Instances         302               93.7888 %
+Incorrectly Classified Instances        20                6.2112 %
+Kappa statistic                          0.0588
+Mean absolute error                      0.0421
+Root mean squared error                  0.2041
+Relative absolute error                 95.8517 %
+Root relative squared error            137.5839 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 4/10 ===
+=== Confusion matrix for fold 4/20 ===
 
    a   b   c   <-- classified as
- 610  19   0 |   a = Slight
-  21   1   0 |   b = Moderate
+ 301  10   0 |   a = Slight
+  10   1   0 |   b = Moderate
    0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 5 ===
-Correctly Classified Instances         611               93.8556 %
-Incorrectly Classified Instances        40                6.1444 %
-Kappa statistic                          0.0159
-Mean absolute error                      0.0417
-Root mean squared error                  0.2028
-Relative absolute error                 95.8661 %
-Root relative squared error            137.4487 %
-Total Number of Instances              651     
+=== 20-fold Cross-validation run 5 ===
+Correctly Classified Instances         305               94.7205 %
+Incorrectly Classified Instances        17                5.2795 %
+Kappa statistic                          0.0788
+Mean absolute error                      0.0352
+Root mean squared error                  0.1876
+Relative absolute error                 80.1383 %
+Root relative squared error            126.4952 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 5/10 ===
+=== Confusion matrix for fold 5/20 ===
 
    a   b   c   <-- classified as
- 610  19   0 |   a = Slight
-  21   1   0 |   b = Moderate
+ 304   7   0 |   a = Slight
+  10   1   0 |   b = Moderate
    0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 6 ===
-Correctly Classified Instances         605               92.9339 %
-Incorrectly Classified Instances        46                7.0661 %
-Kappa statistic                          0.0061
-Mean absolute error                      0.0479
-Root mean squared error                  0.2173
-Relative absolute error                110.2068 %
-Root relative squared error            147.195  %
-Total Number of Instances              651     
+=== 20-fold Cross-validation run 6 ===
+Correctly Classified Instances         302               93.7888 %
+Incorrectly Classified Instances        20                6.2112 %
+Kappa statistic                         -0.0317
+Mean absolute error                      0.0414
+Root mean squared error                  0.2035
+Relative absolute error                 94.2803 %
+Root relative squared error            137.2033 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 6/10 ===
-
-   a   b   c   <-- classified as
- 604  25   0 |   a = Slight
-  20   1   0 |   b = Moderate
-   1   0   0 |   c = Heavy
-
-
-=== 10-fold Cross-validation run 7 ===
-Correctly Classified Instances         608               93.3948 %
-Incorrectly Classified Instances        43                6.6052 %
-Kappa statistic                         -0.0333
-Mean absolute error                      0.0443
-Root mean squared error                  0.2099
-Relative absolute error                101.7889 %
-Root relative squared error            142.14   %
-Total Number of Instances              651     
-
-=== Confusion matrix for fold 7/10 ===
+=== Confusion matrix for fold 6/20 ===
 
    a   b   c   <-- classified as
- 608  21   0 |   a = Slight
-  21   0   0 |   b = Moderate
-   1   0   0 |   c = Heavy
+ 302   9   0 |   a = Slight
+  11   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 8 ===
-Correctly Classified Instances         615               94.47   %
-Incorrectly Classified Instances        36                5.53   %
-Kappa statistic                         -0.0264
+=== 20-fold Cross-validation run 7 ===
+Correctly Classified Instances         303               94.0994 %
+Incorrectly Classified Instances        19                5.9006 %
+Kappa statistic                          0.0648
+Mean absolute error                      0.0404
+Root mean squared error                  0.1996
+Relative absolute error                 91.9233 %
+Root relative squared error            134.6061 %
+Total Number of Instances              322     
+
+=== Confusion matrix for fold 7/20 ===
+
+   a   b   c   <-- classified as
+ 302   9   0 |   a = Slight
+  10   1   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 8 ===
+Correctly Classified Instances         298               92.5466 %
+Incorrectly Classified Instances        24                7.4534 %
+Kappa statistic                          0.039 
+Mean absolute error                      0.0497
+Root mean squared error                  0.2229
+Relative absolute error                113.1364 %
+Root relative squared error            150.2986 %
+Total Number of Instances              322     
+
+=== Confusion matrix for fold 8/20 ===
+
+   a   b   c   <-- classified as
+ 297  14   0 |   a = Slight
+  10   1   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 9 ===
+Correctly Classified Instances         299               92.8571 %
+Incorrectly Classified Instances        23                7.1429 %
+Kappa statistic                          0.0434
+Mean absolute error                      0.0483
+Root mean squared error                  0.2187
+Relative absolute error                109.9937 %
+Root relative squared error            147.4891 %
+Total Number of Instances              322     
+
+=== Confusion matrix for fold 9/20 ===
+
+   a   b   c   <-- classified as
+ 298  13   0 |   a = Slight
+  10   1   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 10 ===
+Correctly Classified Instances         304               94.4099 %
+Incorrectly Classified Instances        18                5.5901 %
+Kappa statistic                         -0.0273
 Mean absolute error                      0.038 
-Root mean squared error                  0.1933
-Relative absolute error                 87.4978 %
-Root relative squared error            130.8824 %
-Total Number of Instances              651     
+Root mean squared error                  0.1936
+Relative absolute error                 86.4236 %
+Root relative squared error            130.5636 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 8/10 ===
-
-   a   b   c   <-- classified as
- 615  14   0 |   a = Slight
-  21   0   0 |   b = Moderate
-   1   0   0 |   c = Heavy
-
-
-=== 10-fold Cross-validation run 9 ===
-Correctly Classified Instances         608               93.5385 %
-Incorrectly Classified Instances        42                6.4615 %
-Kappa statistic                         -0.0334
-Mean absolute error                      0.044 
-Root mean squared error                  0.208 
-Relative absolute error                103.4436 %
-Root relative squared error            144.0868 %
-Total Number of Instances              650     
-
-=== Confusion matrix for fold 9/10 ===
+=== Confusion matrix for fold 10/20 ===
 
    a   b   c   <-- classified as
- 608  21   0 |   a = Slight
-  21   0   0 |   b = Moderate
+ 304   7   0 |   a = Slight
+  11   0   0 |   b = Moderate
    0   0   0 |   c = Heavy
 
 
-=== 10-fold Cross-validation run 10 ===
-Correctly Classified Instances         616               94.7692 %
-Incorrectly Classified Instances        34                5.2308 %
-Kappa statistic                          0.0786
-Mean absolute error                      0.0355
-Root mean squared error                  0.1871
-Relative absolute error                 83.5464 %
-Root relative squared error            129.5906 %
-Total Number of Instances              650     
+=== 20-fold Cross-validation run 11 ===
+Correctly Classified Instances         310               96.2733 %
+Incorrectly Classified Instances        12                3.7267 %
+Kappa statistic                         -0.0057
+Mean absolute error                      0.0254
+Root mean squared error                  0.158 
+Relative absolute error                 57.7467 %
+Root relative squared error            106.5536 %
+Total Number of Instances              322     
 
-=== Confusion matrix for fold 10/10 ===
+=== Confusion matrix for fold 11/20 ===
 
    a   b   c   <-- classified as
- 614  15   0 |   a = Slight
-  19   2   0 |   b = Moderate
+ 310   1   0 |   a = Slight
+  11   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 12 ===
+Correctly Classified Instances         302               93.7888 %
+Incorrectly Classified Instances        20                6.2112 %
+Kappa statistic                         -0.0302
+Mean absolute error                      0.0414
+Root mean squared error                  0.2035
+Relative absolute error                 94.1335 %
+Root relative squared error            136.9901 %
+Total Number of Instances              322     
+
+=== Confusion matrix for fold 12/20 ===
+
+   a   b   c   <-- classified as
+ 302   9   0 |   a = Slight
+  10   0   0 |   b = Moderate
+   1   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 13 ===
+Correctly Classified Instances         308               95.6522 %
+Incorrectly Classified Instances        14                4.3478 %
+Kappa statistic                          0.202 
+Mean absolute error                      0.029 
+Root mean squared error                  0.1703
+Relative absolute error                 65.8934 %
+Root relative squared error            114.6141 %
+Total Number of Instances              322     
+
+=== Confusion matrix for fold 13/20 ===
+
+   a   b   c   <-- classified as
+ 306   5   0 |   a = Slight
+   8   2   0 |   b = Moderate
+   1   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 14 ===
+Correctly Classified Instances         297               92.5234 %
+Incorrectly Classified Instances        24                7.4766 %
+Kappa statistic                          0.0401
+Mean absolute error                      0.0498
+Root mean squared error                  0.2233
+Relative absolute error                118.5367 %
+Root relative squared error            157.3717 %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 14/20 ===
+
+   a   b   c   <-- classified as
+ 296  15   0 |   a = Slight
+   9   1   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 15 ===
+Correctly Classified Instances         300               93.4579 %
+Incorrectly Classified Instances        21                6.5421 %
+Kappa statistic                          0.0536
+Mean absolute error                      0.0436
+Root mean squared error                  0.2088
+Relative absolute error                103.7196 %
+Root relative squared error            147.2077 %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 15/20 ===
+
+   a   b   c   <-- classified as
+ 299  12   0 |   a = Slight
+   9   1   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 16 ===
+Correctly Classified Instances         304               94.704  %
+Incorrectly Classified Instances        17                5.296  %
+Kappa statistic                         -0.0263
+Mean absolute error                      0.036 
+Root mean squared error                  0.1885
+Relative absolute error                 85.6098 %
+Root relative squared error            132.8801 %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 16/20 ===
+
+   a   b   c   <-- classified as
+ 304   7   0 |   a = Slight
+  10   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 17 ===
+Correctly Classified Instances         302               94.081  %
+Incorrectly Classified Instances        19                5.919  %
+Kappa statistic                         -0.0297
+Mean absolute error                      0.0402
+Root mean squared error                  0.1992
+Relative absolute error                 91.2841 %
+Root relative squared error            134.1269 %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 17/20 ===
+
+   a   b   c   <-- classified as
+ 302   8   0 |   a = Slight
+  11   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 18 ===
+Correctly Classified Instances         298               92.8349 %
+Incorrectly Classified Instances        23                7.1651 %
+Kappa statistic                         -0.0371
+Mean absolute error                      0.0485
+Root mean squared error                  0.2191
+Relative absolute error                110.1704 %
+Root relative squared error            147.497  %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 18/20 ===
+
+   a   b   c   <-- classified as
+ 298  12   0 |   a = Slight
+  11   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 19 ===
+Correctly Classified Instances         303               94.3925 %
+Incorrectly Classified Instances        18                5.6075 %
+Kappa statistic                         -0.0274
+Mean absolute error                      0.0374
+Root mean squared error                  0.1933
+Relative absolute error                 84.9886 %
+Root relative squared error            130.1694 %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 19/20 ===
+
+   a   b   c   <-- classified as
+ 303   7   0 |   a = Slight
+  11   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 20-fold Cross-validation run 20 ===
+Correctly Classified Instances         301               93.7695 %
+Incorrectly Classified Instances        20                6.2305 %
+Kappa statistic                          0.1991
+Mean absolute error                      0.0422
+Root mean squared error                  0.2044
+Relative absolute error                 96.0057 %
+Root relative squared error            137.5913 %
+Total Number of Instances              321     
+
+=== Confusion matrix for fold 20/20 ===
+
+   a   b   c   <-- classified as
+ 298  12   0 |   a = Slight
+   8   3   0 |   b = Moderate
    0   0   0 |   c = Heavy
 

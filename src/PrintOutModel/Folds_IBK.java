@@ -20,7 +20,7 @@ public class Folds_IBK {
         iBk.setKNN(1);
         iBk.buildClassifier(dataset);
         int seed = 1; // the seed for randomizing the data
-        int folds = 10; // the number of folds for cross-validation
+        int folds = 20; // the number of folds for cross-validation
 
         // Randomize the data
         Random rand = new Random(seed);

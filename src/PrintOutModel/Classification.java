@@ -9,6 +9,8 @@ import weka.classifiers.functions.SMO;
 import weka.classifiers.lazy.IBk;
 import java.io.PrintWriter;
 import java.io.File;
+import weka.classifiers.rules.OneR;
+import weka.classifiers.rules.ZeroR;
 
 public class Classification {
     public static void main(String args[]) throws Exception{
@@ -88,6 +90,36 @@ public class Classification {
         eval3.crossValidateModel(ibk, testData, folds3, rand3);
         output.println(eval3.toSummaryString("\nIBK results:", false));
         output.println(eval3.toMatrixString("\nIBK Confusion Matrix:"));
+
+///// OneR /////
+        // Create and build the OneR classifier
+        OneR oneR = new OneR();
+        oneR.buildClassifier(trainData);
+
+        // Evaluate the OneR model
+        Evaluation eval4 = new Evaluation(trainData);
+            // Built cross-validation = 10 folds
+        Random rand4 = new Random(1);
+        int folds4 = 10;
+            // use 10-fold cross-validation
+        eval4.crossValidateModel(oneR, testData, folds4, rand4);
+        output.println(eval4.toSummaryString("\nOneR results:", false));
+        output.println(eval4.toMatrixString("\nOneR Confusion Matrix:"));
+
+///// ZeroR /////
+        // Create and build the ZeroR classifier
+        ZeroR zeroR = new ZeroR();
+        zeroR.buildClassifier(trainData);
+
+        // Evaluate the ZeroR model
+        Evaluation eval5 = new Evaluation(trainData);
+            // Built cross-validation = 10 folds
+        Random rand5 = new Random(1);
+        int folds5 = 10;
+            // use 10-fold cross
+        eval5.crossValidateModel(zeroR, testData, folds5, rand5);
+        output.println(eval5.toSummaryString("\nZeroR results:", false));
+        output.println(eval5.toMatrixString("\nZeroR Confusion Matrix:"));
 
         output.close();
     }    

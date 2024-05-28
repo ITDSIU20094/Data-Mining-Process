@@ -1,72 +1,108 @@
 
 Random Tree results:
-Correctly Classified Instances        1213               93.1644 %
-Incorrectly Classified Instances        89                6.8356 %
-Kappa statistic                          0.0091
-Mean absolute error                      0.0461
-Root mean squared error                  0.2141
-Relative absolute error                101.1724 %
-Root relative squared error            143.4111 %
-Total Number of Instances             1302     
+Correctly Classified Instances        1186               92.1523 %
+Incorrectly Classified Instances       101                7.8477 %
+Kappa statistic                          0.0168
+Mean absolute error                      0.0523
+Root mean squared error                  0.2287
+Relative absolute error                100.9232 %
+Root relative squared error            143.4807 %
+Total Number of Instances             1287     
 
 
 Random Tree Confusion Matrix:
     a    b    c   <-- classified as
- 1211   44    2 |    a = Slight
-   41    2    0 |    b = Moderate
+ 1183   51    2 |    a = Slight
+   46    3    0 |    b = Moderate
     2    0    0 |    c = Heavy
 
 
 NaiveBayes results:
-Correctly Classified Instances        1238               95.0845 %
-Incorrectly Classified Instances        64                4.9155 %
-Kappa statistic                          0.0038
-Mean absolute error                      0.0806
-Root mean squared error                  0.1786
-Relative absolute error                176.7971 %
-Root relative squared error            119.6701 %
-Total Number of Instances             1302     
+Correctly Classified Instances        1224               95.1049 %
+Incorrectly Classified Instances        63                4.8951 %
+Kappa statistic                          0.0221
+Mean absolute error                      0.0933
+Root mean squared error                  0.1857
+Relative absolute error                180.054  %
+Root relative squared error            116.481  %
+Total Number of Instances             1287     
 
 
 NaiveBayes Confusion Matrix:
     a    b    c   <-- classified as
- 1238    1   18 |    a = Slight
-   42    0    1 |    b = Moderate
+ 1224    0   12 |    a = Slight
+   47    0    2 |    b = Moderate
     2    0    0 |    c = Heavy
 
 
 SMO results:
-Correctly Classified Instances        1257               96.5438 %
-Incorrectly Classified Instances        45                3.4562 %
+Correctly Classified Instances        1236               96.0373 %
+Incorrectly Classified Instances        51                3.9627 %
 Kappa statistic                          0     
-Mean absolute error                      0.2302
-Root mean squared error                  0.2865
-Relative absolute error                505.1288 %
-Root relative squared error            191.9434 %
-Total Number of Instances             1302     
+Mean absolute error                      0.2314
+Root mean squared error                  0.2885
+Relative absolute error                446.3271 %
+Root relative squared error            180.9654 %
+Total Number of Instances             1287     
 
 
 SMO Confusion Matrix:
     a    b    c   <-- classified as
- 1257    0    0 |    a = Slight
-   43    0    0 |    b = Moderate
+ 1236    0    0 |    a = Slight
+   49    0    0 |    b = Moderate
     2    0    0 |    c = Heavy
 
 
 IBK results:
-Correctly Classified Instances        1221               93.7788 %
-Incorrectly Classified Instances        81                6.2212 %
-Kappa statistic                          0.0591
-Mean absolute error                      0.0425
-Root mean squared error                  0.2034
-Relative absolute error                 93.2156 %
-Root relative squared error            136.2561 %
-Total Number of Instances             1302     
+Correctly Classified Instances        1188               92.3077 %
+Incorrectly Classified Instances        99                7.6923 %
+Kappa statistic                         -0.0194
+Mean absolute error                      0.0523
+Root mean squared error                  0.2262
+Relative absolute error                100.8745 %
+Root relative squared error            141.8714 %
+Total Number of Instances             1287     
 
 
 IBK Confusion Matrix:
     a    b    c   <-- classified as
- 1217   38    2 |    a = Slight
-   39    4    0 |    b = Moderate
+ 1187   49    0 |    a = Slight
+   48    1    0 |    b = Moderate
+    2    0    0 |    c = Heavy
+
+
+OneR results:
+Correctly Classified Instances        1236               96.0373 %
+Incorrectly Classified Instances        51                3.9627 %
+Kappa statistic                          0     
+Mean absolute error                      0.0264
+Root mean squared error                  0.1625
+Relative absolute error                 50.9612 %
+Root relative squared error            101.9572 %
+Total Number of Instances             1287     
+
+
+OneR Confusion Matrix:
+    a    b    c   <-- classified as
+ 1236    0    0 |    a = Slight
+   49    0    0 |    b = Moderate
+    2    0    0 |    c = Heavy
+
+
+ZeroR results:
+Correctly Classified Instances        1236               96.0373 %
+Incorrectly Classified Instances        51                3.9627 %
+Kappa statistic                          0     
+Mean absolute error                      0.0518
+Root mean squared error                  0.1594
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             1287     
+
+
+ZeroR Confusion Matrix:
+    a    b    c   <-- classified as
+ 1236    0    0 |    a = Slight
+   49    0    0 |    b = Moderate
     2    0    0 |    c = Heavy
 

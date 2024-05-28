@@ -11,7 +11,7 @@ public class Step1_CSVtoARFF {
         
         //Load CSV
         CSVLoader loader = new CSVLoader();
-        loader.setSource(new File("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_CSV\\wind_dataset.csv"));
+        loader.setSource(new File("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_CSV\\wind_data.csv"));
         Instances data = loader.getDataSet();
 
         //set up options to remove "DATE" attribute

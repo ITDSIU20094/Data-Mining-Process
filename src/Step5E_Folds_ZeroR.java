@@ -1,13 +1,10 @@
-package PrintOutModel;
 import weka.core.Instances;
 import java.util.Random;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.classifiers.Evaluation;
-import weka.classifiers.bayes.NaiveBayes;
-import java.io.PrintWriter;
-import java.io.File;
+import weka.classifiers.rules.ZeroR;
 
-public class Folds_NaiveBayes {
+public class Step5E_Folds_ZeroR {
     public static void main(String args[]) throws Exception{
         // Load dataset
         DataSource source = new DataSource("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_ARFF\\wind_data.arff");
@@ -16,8 +13,8 @@ public class Folds_NaiveBayes {
         dataset.setClassIndex(dataset.attribute("RAIN").index());
         
         // Create and build the classifier
-        NaiveBayes nb = new NaiveBayes();
-        nb.buildClassifier(dataset);
+        ZeroR zeror = new ZeroR();
+        zeror.buildClassifier(dataset);
         int seed = 1; // the seed for randomizing the data
         int folds = 20; // the number of folds for cross-validation
 
@@ -29,11 +26,7 @@ public class Folds_NaiveBayes {
         if (randData.classAttribute().isNominal())
             randData.stratify(folds);
 
-        // Create a file to write the output
-        File file = new File("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Output\\Folds_NaiveBayes.txt");
-        PrintWriter output = new PrintWriter(file);
-
-        output.println("=== Naive Bayes ===");    
+        System.out.println("=== ZeroR ===");
         // Perform cross-validation
         for (int n = 0; n < folds; n++) {
             Evaluation eval = new Evaluation(randData);
@@ -41,14 +34,13 @@ public class Folds_NaiveBayes {
             Instances train = randData.trainCV(folds, n);
             Instances test = randData.testCV(folds, n);
             // build and evaluate the classifier
-            nb.buildClassifier(train);
-            eval.evaluateModel(nb, test);
+            zeror.buildClassifier(train);
+            eval.evaluateModel(zeror, test);
 
             // output evaluation
-            output.println();
-            output.println(eval.toSummaryString("=== " + folds + "-fold Cross-validation run " + (n+1) + " ===", false));
-            output.println(eval.toMatrixString("=== Confusion matrix for fold " + (n+1) + "/" + folds + " ===\n"));
+            System.out.println();
+            System.out.println(eval.toSummaryString("=== " + folds + "-fold Cross-validation run " + (n+1) + " ===", false));
+            System.out.println(eval.toMatrixString("=== Confusion matrix for fold " + (n+1) + "/" + folds + " ===\n"));
         }
-        output.close();
     }
 }

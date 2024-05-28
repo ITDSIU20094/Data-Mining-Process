@@ -16,7 +16,7 @@ public class Step5B_Folds_NaiveBayes {
         NaiveBayes nb = new NaiveBayes();
         nb.buildClassifier(dataset);
         int seed = 1; // the seed for randomizing the data
-        int folds = 10; // the number of folds for cross-validation
+        int folds = 20; // the number of folds for cross-validation
 
         // Randomize the data
         Random rand = new Random(seed);

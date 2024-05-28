@@ -6,7 +6,8 @@ import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.trees.RandomTree;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.lazy.IBk;
-
+import weka.classifiers.rules.ZeroR;
+import weka.classifiers.rules.OneR;
 
 public class Step3_Classification {
     public static void main(String args[]) throws Exception{
@@ -82,5 +83,35 @@ public class Step3_Classification {
         eval3.crossValidateModel(ibk, testData, folds3, rand3);
         System.out.println(eval3.toSummaryString("\nIBK results:", false));
         System.out.println(eval3.toMatrixString("\nIBK Confusion Matrix:"));
+
+///// ZeroR /////        
+        // Create and build the ZeroR classifier
+        ZeroR zeroR = new ZeroR();
+        zeroR.buildClassifier(trainData);
+
+        // Evaluate the ZeroR model
+        Evaluation eval4 = new Evaluation(trainData);
+            // Built cross-validation = 10 folds
+        Random rand4 = new Random(1);
+        int folds4 = 10;
+            // use 10-fold cross-validation
+        eval4.crossValidateModel(zeroR, testData, folds4, rand4);
+        System.out.println(eval4.toSummaryString("\nZeroR results:", false));
+        System.out.println(eval4.toMatrixString("\nZeroR Confusion Matrix:"));
+
+///// OneR /////
+        // Create and build the OneR classifier
+        OneR oneR = new OneR();
+        oneR.buildClassifier(trainData);
+
+        // Evaluate the OneR model
+        Evaluation eval5 = new Evaluation(trainData);
+            // Built cross-validation = 10 folds
+        Random rand5 = new Random(1);
+        int folds5 = 10;
+            // use 10-fold cross-validation
+        eval5.crossValidateModel(oneR, testData, folds5, rand5);
+        System.out.println(eval5.toSummaryString("\nOneR results:", false));
+        System.out.println(eval5.toMatrixString("\nOneR Confusion Matrix:"));
     }
 }
