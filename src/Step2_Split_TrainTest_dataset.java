@@ -9,8 +9,8 @@ public class Step2_Split_TrainTest_dataset {
         // Load dataset
         DataSource source = new DataSource("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_ARFF\\wind_data.arff");
         Instances dataset = source.getDataSet(); 
-        // Set class index to the last attribute
-        dataset.setClassIndex(dataset.numAttributes() - 1);
+        // Set class index to the RAIN attribute
+        dataset.setClassIndex(dataset.attribute("RAIN").index());
 
         // Randomize dataset
         Random rand = new Random(1);

@@ -29,7 +29,7 @@ public class Step3_Classification {
         RandomTree tree = new RandomTree();
         tree.buildClassifier(trainData);
 
-        // Evaluate the J48 model
+        // Evaluate the Random Tree model
         Evaluation eval = new Evaluation(trainData);
             // Built cross-validation = 10 folds
         Random rand = new Random(1);
