@@ -1,0 +1,181 @@
+=== Naive Bayes ===
+
+=== 10-fold Cross-validation run 1 ===
+Correctly Classified Instances         630               96.7742 %
+Incorrectly Classified Instances        21                3.2258 %
+Kappa statistic                          0     
+Mean absolute error                      0.0601
+Root mean squared error                  0.1479
+Relative absolute error                141.4299 %
+Root relative squared error            102.5274 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 1/10 ===
+
+   a   b   c   <-- classified as
+ 630   0   0 |   a = Slight
+  21   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 2 ===
+Correctly Classified Instances         629               96.6206 %
+Incorrectly Classified Instances        22                3.3794 %
+Kappa statistic                          0     
+Mean absolute error                      0.0582
+Root mean squared error                  0.149 
+Relative absolute error                133.8745 %
+Root relative squared error            100.9996 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 2/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  22   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 3 ===
+Correctly Classified Instances         629               96.6206 %
+Incorrectly Classified Instances        22                3.3794 %
+Kappa statistic                          0     
+Mean absolute error                      0.0577
+Root mean squared error                  0.1479
+Relative absolute error                132.8406 %
+Root relative squared error            100.2357 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 3/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  22   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 4 ===
+Correctly Classified Instances         629               96.6206 %
+Incorrectly Classified Instances        22                3.3794 %
+Kappa statistic                          0     
+Mean absolute error                      0.0568
+Root mean squared error                  0.1496
+Relative absolute error                130.7849 %
+Root relative squared error            101.3634 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 4/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  22   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 5 ===
+Correctly Classified Instances         629               96.6206 %
+Incorrectly Classified Instances        22                3.3794 %
+Kappa statistic                          0     
+Mean absolute error                      0.0557
+Root mean squared error                  0.149 
+Relative absolute error                128.0899 %
+Root relative squared error            101.001  %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 5/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  22   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 6 ===
+Correctly Classified Instances         629               96.6206 %
+Incorrectly Classified Instances        22                3.3794 %
+Kappa statistic                          0     
+Mean absolute error                      0.0589
+Root mean squared error                  0.1511
+Relative absolute error                135.3411 %
+Root relative squared error            102.3051 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 6/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  21   0   0 |   b = Moderate
+   1   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 7 ===
+Correctly Classified Instances         628               96.467  %
+Incorrectly Classified Instances        23                3.533  %
+Kappa statistic                         -0.0015
+Mean absolute error                      0.0596
+Root mean squared error                  0.152 
+Relative absolute error                137.0575 %
+Root relative squared error            102.9371 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 7/10 ===
+
+   a   b   c   <-- classified as
+ 628   0   1 |   a = Slight
+  21   0   0 |   b = Moderate
+   1   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 8 ===
+Correctly Classified Instances         628               96.467  %
+Incorrectly Classified Instances        23                3.533  %
+Kappa statistic                         -0.0015
+Mean absolute error                      0.0599
+Root mean squared error                  0.156 
+Relative absolute error                137.6971 %
+Root relative squared error            105.6712 %
+Total Number of Instances              651     
+
+=== Confusion matrix for fold 8/10 ===
+
+   a   b   c   <-- classified as
+ 628   0   1 |   a = Slight
+  21   0   0 |   b = Moderate
+   1   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 9 ===
+Correctly Classified Instances         629               96.7692 %
+Incorrectly Classified Instances        21                3.2308 %
+Kappa statistic                          0     
+Mean absolute error                      0.0552
+Root mean squared error                  0.1456
+Relative absolute error                129.7569 %
+Root relative squared error            100.83   %
+Total Number of Instances              650     
+
+=== Confusion matrix for fold 9/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  21   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
+
+=== 10-fold Cross-validation run 10 ===
+Correctly Classified Instances         629               96.7692 %
+Incorrectly Classified Instances        21                3.2308 %
+Kappa statistic                          0     
+Mean absolute error                      0.0561
+Root mean squared error                  0.1456
+Relative absolute error                131.879  %
+Root relative squared error            100.8403 %
+Total Number of Instances              650     
+
+=== Confusion matrix for fold 10/10 ===
+
+   a   b   c   <-- classified as
+ 629   0   0 |   a = Slight
+  21   0   0 |   b = Moderate
+   0   0   0 |   c = Heavy
+
