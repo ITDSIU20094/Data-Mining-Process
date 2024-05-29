@@ -1,18 +1,18 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Data Mining project
 
-## Folder Structure
+  We create this project for practicing in Data Mining. The purpose of this project is comparing 6 models. Include: IBK,NaiveBayes,OneR,ZeroR,SMO and RandomTree
 
-The workspace contains two folders by default, where:
+  From a raw dataset on Kaggle, we did preprocessing dataset, EDA, in order to get list of result, which contains 20 element, representing 20 selected k-folds from 1 to 20. After visualizing them, we evaluate 6 models
+## References
+- Dataset: https://www.kaggle.com/datasets/fedesoriano/-wind-speed-prediction-dataset
+- EDA: https://www.kaggle.com/code/soufics/exploratory-data-analysis-wind-speed
+- Weka in Java Techniques :https://weka.sourceforge.io/doc.stable/
+- Rain scale (or level of rain): https://www.researchgate.net/figure/Rain-intensity-classifications-according-to-the-World-Meteorological-Organization-2018_tbl1_353769617
+- Wind Scale (or wind level):https://www.weather.gov/mfl/beaufort?fbclid=IwAR3Y7IMdvxAKICNeasB9MQHcNSiQhMPP-Dl13bzZI13RGgXePPUWhp-Os0g
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
