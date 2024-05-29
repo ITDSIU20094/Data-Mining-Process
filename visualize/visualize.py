@@ -2,12 +2,12 @@ import os
 import matplotlib.pyplot as plt
 #  get a list of file path
 file_paths = [
-    'C:/Users/PC 2024/OneDrive - VietNam National University - HCM INTERNATIONAL UNIVERSITY/Desktop/DSA project/Data-Mining-Process/Output/Folds_IBK.txt',
-    'C:/Users/PC 2024/OneDrive - VietNam National University - HCM INTERNATIONAL UNIVERSITY/Desktop/DSA project/Data-Mining-Process/Output/Folds_NaiveBayes.txt',
-    'C:/Users/PC 2024/OneDrive - VietNam National University - HCM INTERNATIONAL UNIVERSITY/Desktop/DSA project/Data-Mining-Process/Output/Folds_OneR.txt',
-    'C:/Users/PC 2024/OneDrive - VietNam National University - HCM INTERNATIONAL UNIVERSITY/Desktop/DSA project/Data-Mining-Process/Output/Folds_RandomTree.txt',
-    'C:/Users/PC 2024/OneDrive - VietNam National University - HCM INTERNATIONAL UNIVERSITY/Desktop/DSA project/Data-Mining-Process/Output/Folds_SMO.txt',
-    'C:/Users/PC 2024/OneDrive - VietNam National University - HCM INTERNATIONAL UNIVERSITY/Desktop/DSA project/Data-Mining-Process/Output/Folds_ZeroR.txt'
+    'C:\Users\quanh\OneDrive\Tài liệu\GitHub\Data-Mining-Process\Output\Folds_IBK.txt',
+    'C:\Users\quanh\OneDrive\Tài liệu\GitHub\Data-Mining-Process\Output\Folds_NaiveBayes.txt',
+    'C:\Users\quanh\OneDrive\Tài liệu\GitHub\Data-Mining-Process\Output\Folds_OneR.txt',
+    'C:\Users\quanh\OneDrive\Tài liệu\GitHub\Data-Mining-Process\Output\Folds_RandomTree.txt',
+    'C:\Users\quanh\OneDrive\Tài liệu\GitHub\Data-Mining-Process\Output\Folds_SMO.txt',
+    'C:\Users\quanh\OneDrive\Tài liệu\GitHub\Data-Mining-Process\Output\Folds_ZeroR.txt'
 ]
 
 def taking_accuracy_from_file(file_path):

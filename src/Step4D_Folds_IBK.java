@@ -4,7 +4,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.classifiers.Evaluation;
 import weka.classifiers.lazy.IBk;
 
-public class Step5D_Folds_IBK {
+public class Step4D_Folds_IBK {
     public static void main(String args[]) throws Exception{
         // Load dataset
         DataSource source = new DataSource("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_ARFF\\wind_data.arff");

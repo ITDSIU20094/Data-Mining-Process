@@ -4,7 +4,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.classifiers.Evaluation;
 import weka.classifiers.bayes.NaiveBayes;
 
-public class Step5B_Folds_NaiveBayes {
+public class Step4B_Folds_NaiveBayes {
     public static void main(String args[]) throws Exception{
         // Load dataset
         DataSource source = new DataSource("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_ARFF\\wind_data.arff");
