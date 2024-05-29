@@ -20,14 +20,14 @@ public class Step1_CSVtoARFF {
         Remove remove = new Remove();
         remove.setOptions(opts);
         remove.setInputFormat(data);
-        Instances newData = Filter.useFilter(data, remove);
+        Instances newdata = Filter.useFilter(data, remove);
 
         // print out the result
-        System.out.println(newData.toSummaryString());
+        System.out.println(newdata.toSummaryString());
 
         //save ARFF
         ArffSaver saver = new ArffSaver();
-        saver.setInstances(newData);
+        saver.setInstances(newdata);
         //and save as ARFF
         saver.setFile(new File("C:\\Users\\quanh\\OneDrive\\Tài liệu\\GitHub\\Data-Mining-Process\\Dataset_ARFF\\wind_data.arff"));
         saver.writeBatch();
